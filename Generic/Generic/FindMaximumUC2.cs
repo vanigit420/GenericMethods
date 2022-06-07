@@ -8,7 +8,7 @@ namespace Generic
 {
     public class FindMaximum
     {
-        public int MaximumIntegerNum(int firstValue, int secondValue, int thirdValue)
+        public double MaximumFloatNum(double firstValue, double secondValue, double thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                 firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
